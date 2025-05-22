@@ -1,0 +1,89 @@
+.navbar {
+  position: fixed; /* Hace que la navbar sea fija */
+  top: 0; /* Lo pega a la parte superior */
+  left: 0; /* Lo pega al lado izquierdo */
+  width: 100%; /* Ocupa todo el ancho */
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000000;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Opcional: sombra para efecto de elevación */
+}
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 0.5rem;
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+  }
+
+  .searchInpu::placeholder {
+    padding: 0.5rem;
+    width: 500px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+  }
+  
+  .searchButton {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: #ffc422;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .searchButton:hover {
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .button {
+    padding: 0.7rem 1.2rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #ffc422;
+    font-weight: bold;
+    transform: scale(1.1);
+  }
+  
