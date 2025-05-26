@@ -39,6 +39,22 @@
     font-weight: bold;
     margin-top: 0.25rem;
   }
+
+  .cartItemControls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cartItemControls button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
   
   .removeButton {
     background-color: #ffcdd2;
